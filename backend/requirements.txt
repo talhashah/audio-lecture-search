@@ -8,3 +8,6 @@ chromadb
 transformers
 pydantic
 scikit-learn
+ollama
+gradio
+openai

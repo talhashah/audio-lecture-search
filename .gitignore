@@ -5,3 +5,4 @@ chroma_db/
 node_modules/
 dist/
 .venv
+backend/.gradio

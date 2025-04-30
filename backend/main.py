@@ -17,29 +17,28 @@ app.add_middleware(
 embedding_model = get_embedding_model()
 chroma_client = get_chroma_client()
 collection = get_or_create_collection(chroma_client, name="audio_index")
-# raw_collection = chroma_client.get()
 
-# @app.get("/search")
-# def search(query: str):
-#     query_embedding = embedding_model.embed_query(query)
-#     print("Query is " + query)
-#     print(query_embedding)
-#     results = collection.query(
-#         query_embeddings=[query_embedding],
-#         n_results=5
-#     )
-#     # results = raw_collection
-#     print("Collection has " + str(collection.count()) + " documents")
-#     return {"results": results}
 
 @app.get("/search")
 def search(query: str):
+    query_embedding = embedding_model.embed_query(query)
+    print("Query: "+ query)
     results = collection.query(
-        query_texts=[query],
+        query_embeddings=[query_embedding],
         n_results=10,
         include=["documents", "metadatas"]
     )
+    print("Collection has " + str(collection.count()) + " documents")
     return {"results": results}
+
+# @app.get("/search")
+# def search(query: str):
+#     results = collection.query(
+#         query_texts=[query],
+#         n_results=10,
+#         include=["documents", "metadatas"]
+#     )
+#     return {"results": results}
 
 
 @app.get("/health")
