@@ -1,0 +1,14 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+COPY frontend/package.json frontend/package-lock.json ./
+RUN npm install
+
+COPY frontend ./
+
+RUN npm run build
+
+# Use a simple static server to serve the React app
+RUN npm install -g serve
+CMD ["serve", "-s", "dist", "-l", "5173"]

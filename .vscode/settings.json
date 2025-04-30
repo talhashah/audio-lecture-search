@@ -1,0 +1,6 @@
+{
+  "python.envFile": "${workspaceFolder}/backend/.env",
+  "python.analysis.extraPaths": ["backend"],
+  "python.defaultInterpreterPath": "backend/.venv/bin/python",
+  "python.analysis.typeCheckingMode": "basic"
+}

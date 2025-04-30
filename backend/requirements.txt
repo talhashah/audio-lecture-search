@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sentence-transformers
+langchain
+langchain-community
+langchain-huggingface
+chromadb
+transformers
+pydantic
+scikit-learn
