@@ -8,7 +8,7 @@ This project is a full-stack web application that enables **Retrieval-Augmented 
 ---
 
 
-## 💡 Business Use Case: Enhancing Accessibility to Sacred Learning Center's Weekly Talks  
+## 💡 Objective: Making Sacred Learning Center's Weekly Talks Searchable & Accessible 
 
 <div style="background-color:#f9f9f9; padding:15px; border-radius:8px; border-left:5px solid #4A90E2;">
 
