@@ -26,12 +26,11 @@ This initiative aims to make Sacred Learning Center’s extensive collection of 
 
 By leveraging AI-powered solutions, this project seeks to **enhance the accessibility** of these discussions, allowing individuals to explore and engage with them more effectively.  
 
-🔗 **Learn more about Sacred Learning Center:** [Sacred Learning Center - Home Page](https://www.sacredlearning.org)  
-🔗 **Access weekly talks:** [Sacred Learning Center - Recorded Sessions](https://www.sacredlearning.org/talks/)  
-
-</div>
+ - 🔗 **Learn more about Sacred Learning Center:** [Sacred Learning Center - Home Page](https://www.sacredlearning.org)  
+ - 🔗 **Access weekly talks:** [Sacred Learning Center - Recorded Sessions](https://www.sacredlearning.org/talks/)  
 
 
+### **Examples:**  
 **🖼️  Example 1: Context-aware AI response:** The right side utilizes the app to generate responses rooted in the recorded talks, while the left side relies on a standard LLM response without contextual integration.
 ![Screenshot from 2025-05-02 12-59-38](https://github.com/user-attachments/assets/0374d6a7-b844-43c2-9cbb-9439ad2c4003)
 
@@ -63,6 +62,7 @@ By leveraging AI-powered solutions, this project seeks to **enhance the accessib
 - Run backend API from the frontend folder:
   `uvicorn main:app --reload`
 
+### Frontend Apps
 - Run frontend app from the frontend folder:
   `npm run dev.`
 
