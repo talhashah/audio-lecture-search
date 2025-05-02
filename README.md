@@ -34,7 +34,7 @@ By leveraging AI-powered solutions, this project seeks to **enhance the accessib
 **🖼️  Example 1: Context-aware AI response:** The right side utilizes the app to generate responses rooted in the recorded talks, while the left side relies on a standard LLM response without contextual integration.
 ![Screenshot from 2025-05-02 12-59-38](https://github.com/user-attachments/assets/0374d6a7-b844-43c2-9cbb-9439ad2c4003)
 
-**🖼️  Example 2: Semantic Search (No LLM ingeration):** Vector similarity search with ChromaDB.
+**🖼️  Example 2: Semantic Search (No LLM ingeration):** Vector similarity search.
 ![Screenshot from 2025-05-02 13-40-18](https://github.com/user-attachments/assets/5ba02fcf-9308-48fd-a451-49cf328c4d6a)
 
 ---
