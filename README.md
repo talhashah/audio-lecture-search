@@ -52,6 +52,11 @@ By leveraging AI-powered solutions, this project seeks to **enhance the accessib
 
 ---
 
+## 📥📤 Architecture Flow Diagram
+
+![image](https://github.com/user-attachments/assets/0105c143-246c-4c40-ab1a-943559f34318)
+
+---
 ## 🚀 Running the Application
 
 ### Backend API
