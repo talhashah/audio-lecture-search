@@ -27,7 +27,7 @@ This initiative aims to make Sacred Learning Center’s extensive collection of 
 By leveraging AI-powered solutions, this project seeks to **enhance the accessibility** of these discussions, allowing individuals to explore and engage with them more effectively.  
 
 🔗 **Learn more about Sacred Learning Center:** [Sacred Learning Center - Home Page](https://www.sacredlearning.org)  
-🔗 **Access weekly talks:** [Sacred Learninc Center - Recorded Sessions](https://www.sacredlearning.org/talks/)  
+🔗 **Access weekly talks:** [Sacred Learning Center - Recorded Sessions](https://www.sacredlearning.org/talks/)  
 
 </div>
 
