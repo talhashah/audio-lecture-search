@@ -59,7 +59,7 @@ By leveraging AI-powered solutions, this project seeks to **enhance the accessib
 ## 🚀 Running the Application
 
 ### Backend API
-- Run backend API from the frontend folder:
+- Run backend API from the backend folder:
   `uvicorn main:app --reload`
 
 ### Frontend Apps
