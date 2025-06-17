@@ -69,9 +69,3 @@ By leveraging AI-powered solutions, this project seeks to **enhance the accessib
 - Run alternate frontend app from the backend folder:
   `python rag.py`
 
----
-
-## 📜 License
-
-MIT License - Free for personal/commercial use
-
